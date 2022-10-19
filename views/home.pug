@@ -1,0 +1,53 @@
+extends base.pug
+
+block scripts 
+    script(src='../static/index.js') 
+
+block style 
+    style 
+        include ../static/style.css
+        
+
+block content 
+    section#introSection 
+        div Welcome to Okasha's Dance Academy
+        div.small EAT SLEEP DANCE REPEAT
+        div.small GROOVE WITH THE BEAT
+    
+
+    section#visionSection 
+      h2 Our vision
+      div.card
+        h3 Perfection
+        div.card-box
+          div.card-img
+            img(src="/static/img/crd1.jpg", alt="card")
+          
+          div.card-content
+            p this is the best dance academy for you  
+      div.card
+        h3 Freedom
+        div.card-box
+          div.card-img
+            img(src="/static/img/crd2.png", alt="card")
+
+          div.card-content
+            p this is the best dance academy for you 
+      div.card
+        h3 Limitless
+        div.card-box
+          div.card-img
+            img(src="/static/img/crd4.png", alt="card")
+
+          div.card-content
+            p this is the best dance academy for you
+    
+    section#sponsorsSection 
+      h2 Our Sponsors
+      div#sponsors
+        img(src="../static/img/spon1.jpg", alt="Sponsor")
+        img(src="../static/img/spon6.jpg", alt="Sponsor")
+        img(src="../static/img/spon3.jpg", alt="Sponsor")
+        img(src="../static/img/spon4.jpg", alt="Sponsor")
+        img(src="../static/img/spon5.jpg", alt="Sponsor")
+        img(src="../static/img/spon2.jpg", alt="Sponsor")
